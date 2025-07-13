@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -55,11 +56,87 @@
     <section class="hero py-5">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-around">
-
-                <div class="col-12 col-lg-6 text-center mb-4 mb-lg-0 order-1 order-lg-2">
+                
+                <!-- Hero Image Section -->
+                <div class="col-12 col-lg-6 text-center mb-4 mb-lg-0 order-1 order-lg-2 position-relative">
+                    
+                    <!-- Main Image -->
                     <img src="./img/heroDoctor.png" style="max-width: 100%; max-height: 500px;" class="img-fluid" alt="Image of a  female doctor">
+                    
+                    <!-- Doctor's Card -->
+                    <div class="position-absolute" style="top: 43%; left: 25px; transform: translateY(-50%) scale(0.85); transform-origin: top left; display: inline-block;">
+                        
+                        <div class="card ps-1 pe-3" style="border-radius: 20px; width: fit-content;">
+                            <div class="row g-0 align-items-center">
+
+                                <!-- Card Image -->
+                                <div class="col-2 d-flex justify-content-center align-items-center mx-2 mt-3 mb-4" style="background-color: #F9FAFA; width: 70px; height: 90px; border-radius: 8px;"> 
+                                <img src="./img/doctorCardSmallImg.png" class="img-fluid" alt="Doctor's card image" style="max-width: 130px; max-height: 180px;">
+                                </div>
+
+                                <!-- Card Content -->
+                                <div class="col-auto">
+                                    <div class="card-body text-start pt-0 mt-3">
+                                        <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium mb-3" style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;">
+                                            Available
+                                        </button>
+                                        <h5 class="card-subtitle" style="font-size: 16px;">Dr. Andrea G.</h5>
+                                        <p class="card-text text-muted mb-2" style="font-size: 14px;">Cardiologist</p>
+                                        <p class="card-text"><span class="fw-semibold" style="color: #01594E;">$55</span><small class="text-muted">/session</small></p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Booking Button -->
+                                <div class="col ms-3">
+                                    <button class="btn btn-outline-success rounded-pill d-flex align-items-center gap-2 ps-1 pe-3 py-1 fw-semibold booking-btn" style="font-size: 0.75rem; color: #017D6E">
+                                        <span class="ms-2">
+                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12.3055 9.21033C12.2018 9.99841 11.8148 10.7218 11.2167 11.2454C10.6186 11.769 9.85042 12.0569 9.05555 12.0555C4.43767 12.0555 0.680547 8.29838 0.680547 3.6805C0.679122 2.88563 0.967093 2.11741 1.49067 1.51934C2.01425 0.92127 2.73764 0.53424 3.52572 0.430537C3.72501 0.406204 3.92682 0.446974 4.10103 0.546763C4.27524 0.646551 4.41251 0.800005 4.49234 0.984217L5.72067 3.72645V3.73343C5.78179 3.87444 5.80703 4.02839 5.79414 4.18153C5.78125 4.33468 5.73063 4.48225 5.64681 4.61106C5.63634 4.62676 5.62529 4.6413 5.61366 4.65584L4.40277 6.09122C4.83839 6.97641 5.76429 7.89417 6.66111 8.33095L8.07672 7.12647C8.09062 7.11478 8.10519 7.10391 8.12034 7.0939C8.24904 7.00805 8.39712 6.95565 8.55117 6.94144C8.70522 6.92722 8.86038 6.95164 9.00262 7.01247L9.01018 7.01596L11.7501 8.24371C11.9346 8.32326 12.0885 8.46041 12.1886 8.63464C12.2887 8.80888 12.3297 9.01084 12.3055 9.21033Z" fill="#017D6E"/>
+                                            </svg>
+                                        </span>
+                                        Book Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card -->
+                    <div class="position-absolute" style="top: 92%; left: 322px; transform: translateY(-50%); display: inline-block;">
+                        <div class="card position-relative" style="width: 270px; background-color: #017D6E; border-radius: 12px;">
+                            <div class="card-body text-start px-4 py-4" style="color: #FFFFFF;">
+                                <h6 class="card-subtitle mb-3 lead fw-normal" style="font-size: 15px;">“The workshops were insightful, the networking opportunities were abundant”</h6>
+                                <p class="card-text lead mb-0 fw-normal" style="font-size: 14px;">Michael Angelo</p>
+                                <p class="small mb-0" style="font-size: 12px; color: #d5e0df;">39 years old</p>
+                                
+                                <!-- Quote Symbol -->
+                                <div class="position-absolute" style="top: 78%; left: 215px; transform: translateY(-50%); display: inline-block;">
+                                    <svg width="37" height="27" viewBox="0 0 37 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.3089 2.90965V18.2638C16.3066 20.4843 15.4235 22.6132 13.8534 24.1833C12.2833 25.7534 10.1544 26.6365 7.93392 26.6388C7.56372 26.6388 7.20869 26.4918 6.94692 26.23C6.68515 25.9682 6.53809 25.6132 6.53809 25.243C6.53809 24.8728 6.68515 24.5177 6.94692 24.256C7.20869 23.9942 7.56372 23.8471 7.93392 23.8471C9.41471 23.8471 10.8349 23.2589 11.8819 22.2118C12.929 21.1647 13.5173 19.7446 13.5173 18.2638V16.868H3.0485C2.30811 16.868 1.59804 16.5739 1.0745 16.0503C0.550957 15.5268 0.256836 14.8167 0.256836 14.0763V2.90965C0.256836 2.16925 0.550957 1.45918 1.0745 0.935641C1.59804 0.412102 2.30811 0.117981 3.0485 0.117981H13.5173C14.2576 0.117981 14.9677 0.412102 15.4913 0.935641C16.0148 1.45918 16.3089 2.16925 16.3089 2.90965ZM33.7568 0.117981H23.2881C22.5477 0.117981 21.8376 0.412102 21.3141 0.935641C20.7905 1.45918 20.4964 2.16925 20.4964 2.90965V14.0763C20.4964 14.8167 20.7905 15.5268 21.3141 16.0503C21.8376 16.5739 22.5477 16.868 23.2881 16.868H33.7568V18.2638C33.7568 19.7446 33.1686 21.1647 32.1215 22.2118C31.0744 23.2589 29.6543 23.8471 28.1735 23.8471C27.8033 23.8471 27.4483 23.9942 27.1865 24.256C26.9247 24.5177 26.7777 24.8728 26.7777 25.243C26.7777 25.6132 26.9247 25.9682 27.1865 26.23C27.4483 26.4918 27.8033 26.6388 28.1735 26.6388C30.394 26.6365 32.5229 25.7534 34.093 24.1833C35.6631 22.6132 36.5462 20.4843 36.5485 18.2638V2.90965C36.5485 2.16925 36.2544 1.45918 35.7308 0.935641C35.2073 0.412102 34.4972 0.117981 33.7568 0.117981Z" fill="#34978B"/>
+                                    </svg>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arrow symbol Top-right-->
+                    <div class="position-absolute" style="top: 27%; left: 455px; transform: translateY(-50%); display: inline-block;">
+                        <svg width="106" height="88" viewBox="0 0 106 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.09773 0.068517C1.07278 -0.00888679 0.179154 0.759247 0.101751 1.78419C0.0243467 2.80914 0.79248 3.70277 1.81743 3.78017L2.09773 0.068517ZM95.3981 48.286L93.5699 48.6344L95.3981 48.286ZM90.5603 87.6863L105.382 72.1252L84.4949 67.0697L90.5603 87.6863ZM1.95758 1.92434C1.81743 3.78017 1.81734 3.78016 1.81758 3.78018C1.8181 3.78022 1.81866 3.78026 1.81969 3.78034C1.82174 3.7805 1.8251 3.78076 1.82974 3.78112C1.83902 3.78183 1.85346 3.78296 1.87297 3.7845C1.912 3.78759 1.97131 3.79236 2.05031 3.79891C2.20829 3.812 2.44495 3.83222 2.75528 3.86038C3.37596 3.9167 4.2912 4.00477 5.461 4.13113C7.80089 4.38389 11.1576 4.78967 15.2115 5.40069C23.3251 6.62361 34.2038 8.66457 45.3016 11.9357C56.4165 15.2119 67.6527 19.694 76.5432 25.7557C85.4357 31.8188 91.7966 39.33 93.5699 48.6344L95.3981 48.286L97.2263 47.9376C95.1994 37.3026 87.9803 29.0487 78.6401 22.6804C69.298 16.3107 57.6491 11.6947 46.3539 8.36537C35.0417 5.03099 23.9852 2.95884 15.7663 1.72004C11.6539 1.10021 8.24493 0.687978 5.86075 0.430437C4.66851 0.301651 3.7321 0.2115 3.09164 0.153386C2.7714 0.124328 2.52512 0.103277 2.3578 0.0894074C2.27415 0.0824726 2.21023 0.077333 2.16667 0.0738857C2.1449 0.072162 2.12821 0.0708614 2.11669 0.069971C2.11094 0.0695256 2.10647 0.069183 2.10331 0.0689412C2.10172 0.0688204 2.10033 0.0687142 2.09954 0.068654C2.09847 0.068573 2.09773 0.068517 1.95758 1.92434ZM95.3981 48.286L93.5699 48.6344C94.8182 55.1844 94.0041 63.6363 92.6691 71.0767L94.5009 71.4053L96.3328 71.734C97.6852 64.1968 98.6078 55.1863 97.2263 47.9376L95.3981 48.286Z" fill="#017D6E"/>
+                        </svg>
+                    </div>
+
+                    <!-- Arrow symbol Bottom-left -->
+                    <div class="position-absolute" style="top: 92%; left: 95px; transform: translateY(-50%); display: inline-block;">
+                        <svg width="104" height="91" viewBox="0 0 104 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M101.606 90.8844C102.627 90.9975 103.547 90.261 103.66 89.2394C103.773 88.2178 103.037 87.2979 102.015 87.1848L101.606 90.8844ZM10.0448 39.4401L11.8841 39.1557L10.0448 39.4401ZM16.2547 0.232697L0.898903 15.267L21.5969 21.0484L16.2547 0.232697ZM101.81 89.0346C102.015 87.1848 102.015 87.1848 102.015 87.1848C102.015 87.1847 102.014 87.1846 102.013 87.1845C102.011 87.1843 102.008 87.1839 102.003 87.1834C101.994 87.1824 101.979 87.1807 101.96 87.1785C101.921 87.1741 101.862 87.1672 101.783 87.1579C101.626 87.1393 101.39 87.1109 101.081 87.0719C100.462 86.9939 99.5508 86.874 98.3861 86.7069C96.0565 86.3726 92.716 85.8499 88.6859 85.0978C80.6199 83.5925 69.8191 81.1731 58.8422 77.5166C47.8484 73.8545 36.7754 68.9831 28.1019 62.6147C19.4265 56.245 13.3315 48.5164 11.8841 39.1557L10.0448 39.4401L8.20558 39.7245C9.86003 50.4238 16.7867 58.9246 25.899 65.615C35.0131 72.3069 46.4938 77.3266 57.6659 81.0481C68.8549 84.7752 79.8323 87.232 88.003 88.7568C92.0913 89.5198 95.4837 90.0508 97.8575 90.3914C99.0445 90.5617 99.9772 90.6845 100.615 90.7649C100.934 90.8051 101.18 90.8347 101.346 90.8544C101.43 90.8643 101.493 90.8716 101.537 90.8766C101.559 90.8791 101.575 90.881 101.587 90.8823C101.592 90.8829 101.597 90.8834 101.6 90.8838C101.602 90.8839 101.603 90.8841 101.604 90.8842C101.605 90.8843 101.606 90.8844 101.81 89.0346ZM10.0448 39.4401L11.8841 39.1557C10.8651 32.5662 11.9737 24.1479 13.5676 16.7586L11.7483 16.3662L9.92904 15.9738C8.31439 23.4592 7.07793 32.432 8.20558 39.7245L10.0448 39.4401Z" fill="#017D6E"/>
+                        </svg>
+                    </div>
+    
                 </div>
 
+                <!-- Hero Text Section -->
                 <div class="col-12 col-lg-6 text-start order-2 order-lg-1">
                     <div class="w-75">
                         
@@ -91,6 +168,9 @@
             </div>
         </div>
     </section>
+
+
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
