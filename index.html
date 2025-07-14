@@ -79,11 +79,17 @@
                                     <!-- Card Content -->
                                     <div class="col-auto">
                                         <div class="card-body text-start pt-0 mt-3">
-                                            <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium mb-3" style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;">
+                                            <!-- Available Button -->
+                                            <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium mb-3" 
+                                            style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;
+                                             pointer-events: none; user-select: none; box-shadow: none;">
                                                 Available
                                             </button>
+                                            <!-- Doctor Name -->
                                             <h5 class="card-subtitle" style="font-size: 16px;">Dr. Andrea G.</h5>
+                                            <!-- Designation -->
                                             <p class="card-text text-muted mb-2" style="font-size: 14px;">Cardiologist</p>
+                                            <!-- Doctor's Fee -->
                                             <p class="card-text"><span class="fw-semibold" style="color: #01594E;">$55</span><small class="text-muted">/session</small></p>
                                         </div>
                                     </div>
@@ -143,7 +149,10 @@
                 <div class="col-12 col-lg-6 text-start order-2 order-lg-1">
                     <div class="w-100 w-lg-75">
                         
-                        <button class="btn rounded-pill d-flex align-items-center gap-2 ps-1 pe-3 py-1 fw-semibold mb-2" style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;">
+                        <!-- Pill Button -->
+                        <button class="btn rounded-pill d-flex align-items-center gap-2 ps-1 pe-3 py-1 fw-semibold mb-2" 
+                        style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;
+                         pointer-events: none; user-select: none; box-shadow: none;">
                             <span class="d-inline-flex align-items-center justify-content-center rounded-circle" style="background-color: #B0D7D2; width: 22px; height: 22px;">
                                 <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10.5625 5.26398C10.563 4.40147 10.3456 3.55282 9.93031 2.79686C9.51505 2.04089 8.91549 1.40213 8.18729 0.939901C7.4591 0.477672 6.62591 0.20697 5.76509 0.152937C4.90428 0.0989045 4.04377 0.263294 3.26349 0.630837C2.48322 0.99838 1.80848 1.55715 1.30196 2.25526C0.795432 2.95337 0.473548 3.76816 0.366203 4.62396C0.258858 5.47976 0.369533 6.34881 0.687948 7.15039C1.00636 7.95197 1.52219 8.66008 2.18752 9.20895V13.639C2.18746 13.7183 2.2077 13.7964 2.24631 13.8657C2.28492 13.935 2.34062 13.9933 2.40811 14.0351C2.4756 14.0768 2.55264 14.1006 2.63191 14.1041C2.71118 14.1077 2.79005 14.0909 2.86101 14.0554L5.44446 12.7666L8.0285 14.0583C8.09328 14.0893 8.16432 14.105 8.23613 14.1043C8.35953 14.1043 8.47788 14.0552 8.56513 13.968C8.65239 13.8807 8.70141 13.7624 8.70141 13.639V9.20895C9.28355 8.7295 9.75233 8.12712 10.0741 7.44505C10.3959 6.76298 10.5627 6.01814 10.5625 5.26398ZM1.25696 5.26398C1.25696 4.43577 1.50256 3.62616 1.96269 2.93753C2.42281 2.2489 3.07681 1.71217 3.84198 1.39523C4.60714 1.07829 5.44911 0.995364 6.2614 1.15694C7.0737 1.31852 7.81984 1.71734 8.40547 2.30297C8.99111 2.8886 9.38993 3.63474 9.5515 4.44704C9.71308 5.25933 9.63015 6.1013 9.31321 6.86646C8.99627 7.63163 8.45955 8.28563 7.77091 8.74576C7.08228 9.20589 6.27267 9.45148 5.44446 9.45148C4.33425 9.45025 3.26986 9.00867 2.48482 8.22363C1.69977 7.43859 1.2582 6.37419 1.25696 5.26398ZM7.77085 12.8864L5.65209 11.8273C5.58745 11.795 5.51616 11.7781 5.44388 11.7781C5.3716 11.7781 5.30031 11.795 5.23567 11.8273L3.11808 12.8864V9.82195C3.8383 10.1901 4.63561 10.382 5.44446 10.382C6.25332 10.382 7.05062 10.1901 7.77085 9.82195V12.8864ZM5.44446 8.52092C6.08863 8.52092 6.71832 8.32991 7.25393 7.97203C7.78953 7.61415 8.20698 7.10549 8.45349 6.51036C8.7 5.91523 8.7645 5.26037 8.63883 4.62858C8.51316 3.99679 8.20296 3.41646 7.74747 2.96097C7.29198 2.50548 6.71165 2.19528 6.07986 2.06961C5.44808 1.94394 4.79321 2.00844 4.19809 2.25495C3.60296 2.50146 3.09429 2.91892 2.73641 3.45452C2.37854 3.99012 2.18752 4.61981 2.18752 5.26398C2.18844 6.12749 2.53188 6.95537 3.14248 7.56597C3.75307 8.17656 4.58095 8.52 5.44446 8.52092ZM5.44446 2.93759C5.90458 2.93759 6.35436 3.07403 6.73694 3.32966C7.11951 3.58528 7.41769 3.94862 7.59377 4.37371C7.76985 4.7988 7.81592 5.26656 7.72615 5.71783C7.63639 6.16911 7.41482 6.58363 7.08947 6.90898C6.76412 7.23433 6.3496 7.4559 5.89832 7.54567C5.44705 7.63543 4.97929 7.58936 4.55419 7.41328C4.1291 7.2372 3.76577 6.93902 3.51014 6.55645C3.25452 6.17388 3.11808 5.72409 3.11808 5.26398C3.11808 4.64698 3.36318 4.05526 3.79946 3.61897C4.23574 3.18269 4.82747 2.93759 5.44446 2.93759Z" fill="#00352E"/>
@@ -244,7 +253,289 @@
             </div>
         </div>
         
-    
+    </section>
+
+
+    <!-- Our Services -->
+     <section class="py-2 py-lg-0 py-xl-5 mb-1 mb-lg-5">
+        <div class="container">
+            <div class="row h-100 align-items-center justify-content-around gx-5">
+                
+                <!-- Our Services Image Section -->                
+                <div class="col-12 col-lg-6 text-center mb-4 mb-lg-0 order-1 position-relative">
+                    
+                        <div class="position-relative h-100">
+                        
+                            <!-- Image -->
+                            <img src="./img/doctorsTalking2.jpg"
+                            class="img-fluid" 
+                            alt="Image of doctors talking"
+                            style="border-radius: 20px;">
+                            
+                            <!-- Image Button -->
+                            <button class="btn rounded-pill d-flex align-items-center gap-2 ps-1 pe-3 py-1 fw-semibold mb-2 position-absolute" 
+                            style="background-color: #FFFFFF; font-size: 0.75rem; color: #101918; 
+                            top: 1rem; left: 15px;
+                            pointer-events: none; user-select: none; box-shadow: none;">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-5" style="background-color: #017D6E; border-color: #34978B; width: 22px; height: 22px;">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33328 0.145874C5.13698 0.145874 3.96754 0.500619 2.97285 1.16525C1.97816 1.82988 1.2029 2.77454 0.745094 3.87978C0.287289 4.98502 0.167506 6.2012 0.400893 7.37451C0.63428 8.54783 1.21035 9.62559 2.05627 10.4715C2.90218 11.3174 3.97994 11.8935 5.15326 12.1269C6.32657 12.3603 7.54275 12.2405 8.64798 11.7827C9.75322 11.3249 10.6979 10.5496 11.3625 9.55491C12.0271 8.56022 12.3819 7.39079 12.3819 6.19449C12.3802 4.59081 11.7424 3.05331 10.6084 1.91934C9.47446 0.785374 7.93695 0.147568 6.33328 0.145874ZM6.33328 11.3125C5.32103 11.3125 4.3315 11.0124 3.48984 10.45C2.64818 9.88761 1.99219 9.08828 1.60482 8.15308C1.21744 7.21788 1.11609 6.18881 1.31357 5.196C1.51105 4.2032 1.9985 3.29125 2.71427 2.57547C3.43004 1.8597 4.34199 1.37225 5.3348 1.17477C6.3276 0.97729 7.35668 1.07864 8.29188 1.46602C9.22708 1.85339 10.0264 2.50939 10.5888 3.35105C11.1512 4.19271 11.4513 5.18223 11.4513 6.19449C11.4498 7.55141 10.9101 8.85231 9.95059 9.8118C8.99111 10.7713 7.6902 11.311 6.33328 11.3125ZM10.0555 6.19449C10.0555 6.31788 10.0065 6.43623 9.91923 6.52349C9.83197 6.61074 9.71363 6.65976 9.59023 6.65976H6.33328C6.20988 6.65976 6.09154 6.61074 6.00428 6.52349C5.91702 6.43623 5.868 6.31788 5.868 6.19449V2.93754C5.868 2.81414 5.91702 2.6958 6.00428 2.60854C6.09154 2.52128 6.20988 2.47226 6.33328 2.47226C6.45668 2.47226 6.57503 2.52128 6.66228 2.60854C6.74954 2.6958 6.79856 2.81414 6.79856 2.93754V5.72921H9.59023C9.71363 5.72921 9.83197 5.77823 9.91923 5.86548C10.0065 5.95274 10.0555 6.07109 10.0555 6.19449Z" fill="white"/>
+                                    </svg>
+                                </span>
+                                Always Ready for You
+                            </button>
+                            
+                        </div>
+                </div>
+
+
+                <!-- Our Services Text Section -->
+                <div class="col-12 col-lg-6 text-start order-2 gx-5 gx-lg-0 gx-xl-5">
+                    
+                    <div class="w-100 services-sec">
+
+                        <h1 class="display-4 fw-normal" style="font-size: 3.7rem; margin-bottom: 30px;">Unveiling a Spectrum of Specialized Offerings</h1>
+                        <p class="lead fw-semibold" style="font-size: 1.15rem; margin-bottom: 70px;">
+                            Discover a tailored approach to your health with our versatile range of specialized services, 
+                            ensuring every aspect of your healthcare journey is seamlessly addressed.
+                        </p>
+                        
+                        <!-- Buttons -->
+                        <div style="max-width: 500px;">
+                            <div class="d-flex flex-wrap gap-3">
+                                
+                                <!-- Button 1 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Diagnostic Imaging
+                                </button>
+
+                                <!-- Button 2 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Mental Health Services
+                                </button>
+
+                                <!-- Button 3 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Laboratory Services
+                                </button>
+
+                                <!-- Button 4 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Rehabilitation Services
+                                </button>
+
+                                <!-- Button 5 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Home Healthcare
+                                </button>
+                                
+                                <!-- Button 6 -->
+                                <button class="btn d-flex align-items-center gap-2 fw-semibold mb-2" 
+                                    style="background-color: #FFFFFF; border: 2px solid #9195953D; font-size: 0.75rem; 
+                                    color: #101918; padding: 12px 14px; border-radius: 8px; font-size: 16px;
+                                    top: 5%; left: 15px; transform: translateY(-50%);
+                                    pointer-events: none; user-select: none; box-shadow: none;">
+                                        <span class="d-inline-flex align-items-center justify-content-center rounded-circle border-1" 
+                                        style="background-color: #017D6E; width: 22px; height: 22px;">
+                                            <img src="./img/tickSymbol.png" alt="tick symbo" style="max-width: 26px;">
+                                        </span>
+                                        Geriatric Care
+                                </button>
+                            </div>
+
+                        </div>
+
+                        
+        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Doctors -->
+     <section class="mb-5">
+        <h2 class="text-center display-6 fw-normal mb-2">Meet the Healthcare<br> Heroes Ready to Serve You</h2>
+        <p class="text-center fw-light mb-5" style="margin-bottom: 60px;">Discover the dedicated professionals behind our exceptional care just for you</p>
+        
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-xl-3 g-3 mb-4 mx-auto">
+                
+                <!-- Card 1 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card animate-card p-2" style="width: 25rem; background-color:transparent; border-radius: 12px; border-style: none;">
+                        
+                        <!-- Card Image -->
+                        <div class="pt-3 position-relative" style="background-color: #F9FAFA; border-radius: 12px; padding-left: 30px; padding-right: 30px;">
+                            <img src="./img/Harry.png" class="card-img-top" alt="Photo of Dr.Harry">
+
+                            <!-- Available Button -->
+                            <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium position-absolute" 
+                            style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;
+                            pointer-events: none; user-select: none; box-shadow: none;
+                            top: 1rem; left: 15px;">
+                                Available
+                            </button>
+                        </div>
+                        
+                        <!-- Card Body -->
+                        <div class="card-body d-flex align-items-center justify-content-between px-0">
+                            
+                            <!-- Doctor's Details -->
+                            <div>
+                                <h5 class="card-title fw-semibold fs-6 mb-0">Dr. Harry Marcelo</h5>
+                                <p class="card-text fw-light mb-1" style="font-size: 0.88rem;">Endocrinologist</p>
+                                <p class="card-text"><span class="fw-semibold" style="color: #01594E;">$64</span><small class="text-muted">/session</small></p>
+                            </div>
+                            
+                            <!-- Booking Button -->
+                            <div>
+                                <button class="btn btn-outline-success rounded-pill d-flex align-items-center gap-2 ps-2 pe-4 py-2 fw-semibold booking-btn" style="font-size: 0.75rem; color: #017D6E">
+                                    <span class="ms-2">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.3055 9.21033C12.2018 9.99841 11.8148 10.7218 11.2167 11.2454C10.6186 11.769 9.85042 12.0569 9.05555 12.0555C4.43767 12.0555 0.680547 8.29838 0.680547 3.6805C0.679122 2.88563 0.967093 2.11741 1.49067 1.51934C2.01425 0.92127 2.73764 0.53424 3.52572 0.430537C3.72501 0.406204 3.92682 0.446974 4.10103 0.546763C4.27524 0.646551 4.41251 0.800005 4.49234 0.984217L5.72067 3.72645V3.73343C5.78179 3.87444 5.80703 4.02839 5.79414 4.18153C5.78125 4.33468 5.73063 4.48225 5.64681 4.61106C5.63634 4.62676 5.62529 4.6413 5.61366 4.65584L4.40277 6.09122C4.83839 6.97641 5.76429 7.89417 6.66111 8.33095L8.07672 7.12647C8.09062 7.11478 8.10519 7.10391 8.12034 7.0939C8.24904 7.00805 8.39712 6.95565 8.55117 6.94144C8.70522 6.92722 8.86038 6.95164 9.00262 7.01247L9.01018 7.01596L11.7501 8.24371C11.9346 8.32326 12.0885 8.46041 12.1886 8.63464C12.2887 8.80888 12.3297 9.01084 12.3055 9.21033Z" fill="#017D6E"/>
+                                        </svg>
+                                    </span>
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card animate-card p-2" style="width: 25rem; background-color:transparent; border-radius: 12px; border-style: none;">
+                        
+                        <!-- Card Image -->
+                        <div class="pt-3 position-relative" style="background-color: #F9FAFA; border-radius: 12px; padding-left: 30px; padding-right: 30px;">
+                            <img src="./img/Putri.png" class="card-img-top" alt="Photo of Dr.Putri">
+
+                            <!-- Available Button -->
+                            <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium position-absolute" 
+                            style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;
+                            pointer-events: none; user-select: none; box-shadow: none;
+                            top: 1rem; left: 15px;">
+                                Available
+                            </button>
+                        </div>
+                        
+                        <!-- Card Body -->
+                        <div class="card-body d-flex align-items-center justify-content-between px-0">
+                            
+                            <!-- Doctor's Details -->
+                            <div>
+                                <h5 class="card-title fw-semibold fs-6 mb-0">Dr. Putri Raviola</h5>
+                                <p class="card-text fw-light mb-1" style="font-size: 0.88rem;">Cardiologist</p>
+                                <p class="card-text"><span class="fw-semibold" style="color: #01594E;">$72</span><small class="text-muted">/session</small></p>
+                            </div>
+                            
+                            <!-- Booking Button -->
+                            <div>
+                                <button class="btn btn-outline-success rounded-pill d-flex align-items-center gap-2 ps-2 pe-4 py-2 fw-semibold booking-btn" style="font-size: 0.75rem; color: #017D6E">
+                                    <span class="ms-2">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.3055 9.21033C12.2018 9.99841 11.8148 10.7218 11.2167 11.2454C10.6186 11.769 9.85042 12.0569 9.05555 12.0555C4.43767 12.0555 0.680547 8.29838 0.680547 3.6805C0.679122 2.88563 0.967093 2.11741 1.49067 1.51934C2.01425 0.92127 2.73764 0.53424 3.52572 0.430537C3.72501 0.406204 3.92682 0.446974 4.10103 0.546763C4.27524 0.646551 4.41251 0.800005 4.49234 0.984217L5.72067 3.72645V3.73343C5.78179 3.87444 5.80703 4.02839 5.79414 4.18153C5.78125 4.33468 5.73063 4.48225 5.64681 4.61106C5.63634 4.62676 5.62529 4.6413 5.61366 4.65584L4.40277 6.09122C4.83839 6.97641 5.76429 7.89417 6.66111 8.33095L8.07672 7.12647C8.09062 7.11478 8.10519 7.10391 8.12034 7.0939C8.24904 7.00805 8.39712 6.95565 8.55117 6.94144C8.70522 6.92722 8.86038 6.95164 9.00262 7.01247L9.01018 7.01596L11.7501 8.24371C11.9346 8.32326 12.0885 8.46041 12.1886 8.63464C12.2887 8.80888 12.3297 9.01084 12.3055 9.21033Z" fill="#017D6E"/>
+                                        </svg>
+                                    </span>
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card animate-card p-2" style="width: 25rem; background-color:transparent; border-radius: 12px; border-style: none;">
+                        
+                        <!-- Card Image -->
+                        <div class="pt-3 position-relative" style="background-color: #F9FAFA; border-radius: 12px; padding-left: 30px; padding-right: 30px;">
+                            <img src="./img/Niky.png" class="card-img-top" alt="Photo of Dr.Niky">
+
+                            <!-- Available Button -->
+                            <button class="btn rounded-pill d-flex align-items-center py-1 fw-medium position-absolute" 
+                            style="background-color: #E6F2F1; font-size: 0.75rem; color: #01594E;
+                            pointer-events: none; user-select: none; box-shadow: none;
+                            top: 1rem; left: 15px;">
+                                Available
+                            </button>
+                        </div>
+                        
+                        <!-- Card Body -->
+                        <div class="card-body d-flex align-items-center justify-content-between px-0">
+                            
+                            <!-- Doctor's Details -->
+                            <div>
+                                <h5 class="card-title fw-semibold fs-6 mb-0">Dr. Niky Jeremiah</h5>
+                                <p class="card-text fw-light mb-1" style="font-size: 0.88rem;">Dermatologist</p>
+                                <p class="card-text"><span class="fw-semibold" style="color: #01594E;">$88</span><small class="text-muted">/session</small></p>
+                            </div>
+                            
+                            <!-- Booking Button -->
+                            <div>
+                                <button class="btn btn-outline-success rounded-pill d-flex align-items-center gap-2 ps-2 pe-4 py-2 fw-semibold booking-btn" style="font-size: 0.75rem; color: #017D6E">
+                                    <span class="ms-2">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.3055 9.21033C12.2018 9.99841 11.8148 10.7218 11.2167 11.2454C10.6186 11.769 9.85042 12.0569 9.05555 12.0555C4.43767 12.0555 0.680547 8.29838 0.680547 3.6805C0.679122 2.88563 0.967093 2.11741 1.49067 1.51934C2.01425 0.92127 2.73764 0.53424 3.52572 0.430537C3.72501 0.406204 3.92682 0.446974 4.10103 0.546763C4.27524 0.646551 4.41251 0.800005 4.49234 0.984217L5.72067 3.72645V3.73343C5.78179 3.87444 5.80703 4.02839 5.79414 4.18153C5.78125 4.33468 5.73063 4.48225 5.64681 4.61106C5.63634 4.62676 5.62529 4.6413 5.61366 4.65584L4.40277 6.09122C4.83839 6.97641 5.76429 7.89417 6.66111 8.33095L8.07672 7.12647C8.09062 7.11478 8.10519 7.10391 8.12034 7.0939C8.24904 7.00805 8.39712 6.95565 8.55117 6.94144C8.70522 6.92722 8.86038 6.95164 9.00262 7.01247L9.01018 7.01596L11.7501 8.24371C11.9346 8.32326 12.0885 8.46041 12.1886 8.63464C12.2887 8.80888 12.3297 9.01084 12.3055 9.21033Z" fill="#017D6E"/>
+                                        </svg>
+                                    </span>
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <a href="#" class="btn btn-lg btn-outline-secondary btn-light white-btn fw-semibold px-4">See All Doctors</a>
+        </div>
+        
     </section>
 
     

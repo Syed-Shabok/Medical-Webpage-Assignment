@@ -3,7 +3,6 @@
   transform-origin: top left;
 }
 
-
 @media (max-width: 2000px) {
   .w-lg-75 {
     width: 75% !important;
@@ -22,6 +21,18 @@
   .w-lg-75 {
     width: 100% !important;
   }
+
+  .services-sec {
+    transform: scale(0.7) !important;
+  }
+
+  .services-sec h1 {
+    font-size: 3rem !important;
+  }
+
+  .services-sec p {
+    font-size: 1.3rem !important;
+  }
 }
 
 /* Smaller tablets */
@@ -33,6 +44,18 @@
   .main-img {
     margin-left: 30px;
     margin-bottom: 20px;
+  }
+
+  .services-sec {
+    transform: scale(1) !important;
+  }
+
+  .services-sec h1 {
+    font-size: 2rem !important;
+  }
+
+  .services-sec p {
+    font-size: 1rem !important;
   }
   
 }
